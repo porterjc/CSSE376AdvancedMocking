@@ -1,0 +1,4 @@
+1. The client is never given the mock of the stream. 
+2. Ordered has the given methods methods be called in the order they are typed and presumably recorded. 
+3. ReplayAll records all the given expectations.
+4. VerifyAll checks to see if all recorded expectations are met. 
